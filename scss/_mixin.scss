@@ -1,0 +1,12 @@
+@mixin fondo-header ($url-imagen){
+background-image: url($url-imagen);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+@mixin nav-link-hover($color){
+    &:hover{
+        color: $color
+    }
+
+}
